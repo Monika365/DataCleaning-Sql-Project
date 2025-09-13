@@ -5,13 +5,13 @@ This repository contains two SQL scripts designed for data cleaning and explorat
 - **EDA.sql:** Provides exploratory data analysis on the cleaned dataset with key summary statistics and trend identification.
 Contents
   - **Data_Cleaning.sql:** Cleans and preprocesses the original data table.
--  **EDA.sql:** Applies analytic queries to the preprocessed data to uncover patterns and insights.
+- **EDA.sql:** Applies analytic queries to the preprocessed data to uncover patterns and insights.
 How to Use This Repository
 1. Clone the repository text git clone https://github.com/Monika365/DataCleaning-Sql-Project.git
 2. Review or download the dataset Data should be imported into a SQL-compatible environment (PostgreSQL, MySQL, SQL Server) and named according to your schema conventions. 
 3. Run the scripts:
-    * Execute the code in Data_Cleaning.sql first to prepare the raw data.
-    * Proceed with the queries in EDA.sql to perform analytical exploration.
+    ** Execute the code in Data_Cleaning.sql first to prepare the raw data.
+    ** Proceed with the queries in EDA.sql to perform analytical exploration.
 
 ## Data Cleaning Steps
 * Remove duplicate records using row number or distinct clauses.
